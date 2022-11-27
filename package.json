@@ -1,6 +1,6 @@
 {
   "name": "infobot-sber-tts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.JS library for Sber SmartSpeech Text-To-Speech",
   "main": "index.js",
   "directories": {

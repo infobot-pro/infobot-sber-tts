@@ -1,4 +1,4 @@
-# infobot-sber-stt
+# infobot-sber-tts
 Node.JS library for [Sber SmartSpeech](https://developers.sber.ru/portal/tools/smartspeech) service.
 Library can synchronously synthesize speech from text.
 
