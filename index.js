@@ -12,8 +12,8 @@ class InfobotSberTTS {
 
         this.httpsAgent = new https.Agent({
             ca: [
-                fs.readFileSync('./certs/russian_trusted_root_ca.cer'),
-                fs.readFileSync('./certs/russian_trusted_sub_ca.cer')
+                fs.readFileSync(`${__dirname}/certs/russian_trusted_root_ca.cer`),
+                fs.readFileSync(`${__dirname}/certs/russian_trusted_sub_ca.cer`)
             ], keepAlive: false
         });
 
